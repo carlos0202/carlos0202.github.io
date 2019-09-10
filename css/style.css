@@ -184,6 +184,7 @@ img {
   line-height: 30px;
   font-size: 14px;
   letter-spacing: 0.4px;
+  text-align: justify;
 }
 .content-details {
   font-weight: 400;
@@ -197,6 +198,7 @@ img {
 .text-detail {
   margin-top: 30px;
   color: #5f5f5f;
+  text-align: justify;
 }
 
 .listing-item {
@@ -1011,6 +1013,7 @@ ul.portfolio-image li .desc {
   line-height: 34px;
   letter-spacing: 0.5px;
   font-weight: 300;
+  text-align: justify;
 }
 .wrap-about .name {
   margin: 40px 0 20px 0;
