@@ -1325,3 +1325,60 @@ ul.portfolio-image li .desc {
 .skillst .count-bar .count span:after {
   border-top: 4px solid #818181;
 }
+
+/*---------- Experience & Education cards: equal-height grid ----------*/
+#employement .listing-item,
+#education .listing-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+#employement .listing-item > li,
+#education .listing-item > li {
+  display: flex;
+  width: 50%;
+  margin-bottom: 30px;
+}
+#employement .listing-item > li > [class*="col-"],
+#education .listing-item > li > [class*="col-"] {
+  float: none;
+  width: 100%;
+  display: flex;
+}
+#employement .wrap-card,
+#education .wrap-card {
+  display: flex;
+  width: 100%;
+}
+#employement .card,
+#education .card {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 30px 30px 35px 30px;
+}
+#employement .job,
+#education .job {
+  color: #8a8a8a;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+#employement .company,
+#education .company {
+  color: #6f6f6f;
+  line-height: 1.4;
+}
+#employement .text-detail,
+#education .text-detail {
+  margin-top: 20px;
+  text-align: left;
+}
+#employement .text-detail p,
+#education .text-detail p {
+  line-height: 1.7;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  #employement .listing-item > li,
+  #education .listing-item > li {
+    width: 100%;
+  }
+}
