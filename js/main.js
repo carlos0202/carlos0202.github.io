@@ -96,8 +96,8 @@
     $(".typed").typed({
       strings: [
         "My Name is Carlos González",
-        "I'm a Fullstack Web Developer",
-        "Love Code"
+        "I'm a Senior Software Engineer",
+        ".NET · Backend · Cloud"
       ],
       typeSpeed: 100,
       backDelay: 900,
